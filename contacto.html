@@ -9,34 +9,79 @@
 
 </head>
 <body>
-    <header>
-        <div class="nav">
-            <div class="nav-title">
-                <h1 href="index.html" class="logo"><img src="images/logo.png" alt=""></h1>
-            </div>
-        
-            <div class="nav-menu">
-                <ul>
-                   
-                        <li><a href="index.html">Historia</a></li>
-                  <li><a href="productos.html">Productos</a></li>
-                  
-                  <li><a href="contacto.html">Contacto</a></li>
-                  <li><a><del>Tapizados</del></a></li>
-                        
-                    
-                    
-                </ul>
-            </div>
-        </div>
-        
-      </header>
+    <header class="header-area">
+        <!-- site-navbar start -->
+        <div class="navbar-area">
+          <div class="container">
+            <nav class="site-navbar">
+              <!-- site logo -->
+              <a href="index.html" class="site-logo">Ivosol <br> Reposeras</a>
+      
+              <!-- site menu/nav -->
+              <ul>
+                <li><a href="index.html">Historia</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                
+              </ul>
+      
+              <!-- nav-toggler for mobile version only -->
+              <button class="nav-toggler">
+                <span></span>
+              </button>
+            </nav>
+          </div>
+        </div><!-- navbar-area end -->
+        </header>
+
 
 
       
 
       <main>
-        <div class="container">
+
+        <form action="#">
+
+            <header>
+              <h2>ENVIANOS UN MENSAJE</h2>
+              <div>Envíenos su consulta completando el siguiente formulario y nos pondremos en contacto a la brevedad.</div>
+            </header>
+            
+            <div>
+              <label class="desc" id="title1" for="Field1">Nombre Completo</label>
+              <div>
+                <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+              </div>
+            </div>
+              
+            <div>
+              <label class="desc" id="title3" for="Field3">
+                Email
+              </label>
+              <div>
+                <input id="Field3" name="Field3" type="email" spellcheck="false" value="" maxlength="255" tabindex="3"> 
+             </div>
+            </div>
+              
+            <div>
+              <label class="desc" id="title4" for="Field4">
+                Mensaje
+              </label>
+            
+              <div>
+                <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+              </div>
+            </div>
+              
+           
+            <div>
+                  <div>
+                    <a class="a-enviar" href="mailto:reposerasivosol@gmail.com">Enviar</a>
+              </div>
+              </div>
+            
+          </form>
+        <!-- <div >
             <hr>
                 <form action="" method="" enctype="text/plain">
             
@@ -48,11 +93,11 @@
                     
                         <br>
                         <br>
-                    <label for="nombre">Nombre:</label>
+                    <label class="nombre-label" for="nombre">Nombre:</label>
                     <input id="nombre" type="text" name="nombre">
                     <br><br>
             
-                    <label for="email">Email:</label>
+                    <label class="email-label" for="email">Email:</label>
                     <input id="email" type="email" name="email" required>
                     <br><br>
             
@@ -65,43 +110,37 @@
             <textarea name="" id="" cols="30" rows="10"></textarea>
             
             <br><br>
-             <a href="mailto:reposerasivosol@gmail.com">Enviar</a>
+             <a class="a-enviar" href="mailto:reposerasivosol@gmail.com">Enviar</a>
            
             
             </fieldset>
                     </form>
             
                     <hr>
-                </div>
+                </div> -->
 
         </main>
 
        
 
- <footer>
-    <div class="footer-content">
-        <h3>Ivo-Sol Reposeras</h3>
-       
-        <div class="social">
-            <a href="https://www.facebook.com/ivosol.repo"><img src="images/facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com/reposerasivosol/"><img src="images/instagram.png" alt="Instagram"></a>
-            <a href="https://www.instagram.com/reposerasivosol/"><img src="images/whatsapp1.png" alt="Instagram"></a>
-
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>  <a href="#"> © 2021 IVO-SOL   ||   All Rights Reserved</a>  </p>
-                <div class="footer-menu">
-                  <ul class="f-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    
-                    <li><a href="contacto.html">Contacto</a></li>
-                  </ul>
+        <footer>
+            <div class="footer-content">
+                <h3>Ivo-Sol Reposeras</h3>
+               
+                <div class="social">
+                    <a href="https://www.facebook.com/ivosol.repo"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/reposerasivosol/"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.instagram.com/reposerasivosol/"><img src="images/whatsapp1.png" alt="Instagram"></a>
+        
                 </div>
-    </div>
-
-</footer>
+            </div>
+            <div class="footer-bottom">
+                <p>  <a href="#"> © 2021 IVO-SOL   ||   All Rights Reserved</a>  </p>
+                        
+            </div>
+        
+        </footer>
+         
  
     
          
